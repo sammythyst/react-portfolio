@@ -19,7 +19,7 @@ function Navbar() {
           textAlign: 'center',
         }}>        
         <div>
-          <a href="/">About Me</a>
+          <a href="/react-portfolio">About Me</a>
         </div>
         <div>
           <a href="/portfolio">Portfolio</a>
