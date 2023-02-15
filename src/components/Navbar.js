@@ -3,12 +3,11 @@ import React from 'react';
 function Navbar() {
     
     return (
-    <nav className="main-header-menu">
+    <nav className="main-header-menu col-12">
       <h1 
         style={{
           display: 'flex', 
           justifyContent: 'center', 
-          fontSize: '50px',
           padding: '25px',
         }}>Sammythyst</h1>
 
@@ -17,7 +16,7 @@ function Navbar() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          fontSize: '20px',
+          textAlign: 'center',
         }}>        
         <div>
           <a href="/">About Me</a>
