@@ -11,13 +11,13 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react-portfolio'>
       <Navbar />
       <Routes>
-        <Route path="/react-portfolio/" element={<About />} />
-        <Route path="/react-portfolio/portfolio" element = { <Portfolio/> } />
-        <Route path="/react-portfolio/contact" element = { <Contact /> } />
-        <Route path="/react-portfolio/resume" element = { <Resume /> } />
+        <Route path="/" element={<About />} />
+        <Route path="/portfolio" element = { <Portfolio/> } />
+        <Route path="/contact" element = { <Contact /> } />
+        <Route path="/resume" element = { <Resume /> } />
       </Routes>
   </BrowserRouter>
   );
