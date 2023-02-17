@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename='/react-portfolio' forceRefresh={true}>
+    <BrowserRouter basename='/react-portfolio'>
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
