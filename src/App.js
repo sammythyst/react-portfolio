@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar'
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename='/react-portfolio'>
+    <HashRouter basename='/react-portfolio'>
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/contact" element = { <Contact /> } />
         <Route path="/resume" element = { <Resume /> } />
       </Routes>
-  </BrowserRouter>
+  </HashRouter>
   );
 }
 
