@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter basename='/react-portfolio'>
+    <BrowserRouter basename='https://sammythyst.github.io/react-portfolio'>
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />
