@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 function Navbar() {
-    
+  
     return (
     <nav className="main-header-menu col-12">
       <h1 

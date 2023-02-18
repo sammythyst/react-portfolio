@@ -2,7 +2,7 @@
 
 :root {
   --text: #e6e1e7;
-  --accent: #675A6D;
+  --accent: #675a6d;
 }
 
 * {
@@ -43,4 +43,18 @@ nav a:hover{
   border: 1px solid var(--text);
   color: var(--text);
   background-color: var(--accent);
+}
+
+form {
+  padding-bottom: 50px;
+}
+
+input, textarea {
+  background-color: var(--text);
+  color: var(--accent);
+}
+
+button {
+  background-color: var(--accent);
+  color: var(--text);
 }
