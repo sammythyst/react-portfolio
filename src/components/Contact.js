@@ -6,6 +6,7 @@ function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    const [confirmMessage, setConfirmMessage] = useState('');
 
     const handleInputChange = (e) => {
         const { target } = e;
@@ -34,6 +35,11 @@ function Contact() {
         }
         if (!message) {
             setErrorMessage('Please enter a message.');
+            return;
+        }
+        if (name && email && message) {
+            setErrorMessage('');
+            setConfirmMessage('Message sent!');
             return;
         }
 
@@ -74,6 +80,11 @@ function Contact() {
                 {errorMessage && (
                     <div>
                         <p>{errorMessage}</p>
+                    </div>
+                )}
+                {confirmMessage && (
+                    <div>
+                        <p>{confirmMessage}</p>
                     </div>
                 )}
                 </form>
