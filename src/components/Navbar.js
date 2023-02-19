@@ -1,9 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
-  
-    return (
+  let activeNav = {
+    border: "1px solid var(--text)",
+    color: "var(--text)",
+    backgroundColor: "var(--accent)",
+  };
+
+    return (  
+
     <nav className="main-header-menu col-12">
       <h1 
         style={{
@@ -20,16 +26,24 @@ function Navbar() {
           textAlign: 'center',
         }}>        
         <div>
-          <Link to='/'>About Me</Link>
+          <NavLink to='/' style={({ isActive }) =>
+              isActive ? activeNav : undefined
+            }>About Me</NavLink>
         </div>
         <div>
-          <Link to='/portfolio'>Portfolio</Link>
+          <NavLink to='/portfolio' style={({ isActive }) =>
+              isActive ? activeNav : undefined
+            }>Portfolio</NavLink>
         </div>
         <div>
-          <Link to='/contact'>Contact</Link>
+          <NavLink to='/contact' style={({ isActive }) =>
+              isActive ? activeNav : undefined
+            }>Contact</NavLink>
         </div>
         <div>
-          <Link to='/resume'>Resume</Link>
+          <NavLink to='/resume' style={({ isActive }) =>
+              isActive ? activeNav : undefined
+            }>Resume</NavLink>
         </div>
       </section>
     </nav>
