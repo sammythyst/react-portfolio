@@ -55,6 +55,12 @@ input, textarea {
 }
 
 button {
+  border: 1px solid var(--text);
   background-color: var(--accent);
   color: var(--text);
+  max-width: 250px;
+}
+
+.textLayer, .annotationLayer {
+  display: none;
 }
