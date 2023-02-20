@@ -15,8 +15,15 @@ function Navbar() {
         style={{
           display: 'flex', 
           justifyContent: 'center', 
-          padding: '25px',
-        }}>Sammythyst</h1>
+          paddingTop: '25px',
+        }}>Sam Bensema</h1>
+
+      <h6 
+        style={{
+          display: 'flex', 
+          justifyContent: 'center',
+          paddingBottom: '25px',
+        }}>They/Them</h6>
 
       <section
         style={{
