@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f6f54892.css",
-    "main.js": "/react-portfolio/static/js/main.54809b1b.js",
+    "main.css": "/react-portfolio/static/css/main.ff40a26e.css",
+    "main.js": "/react-portfolio/static/js/main.11fc64c1.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/college-trip.png": "/react-portfolio/static/media/college-trip.5c31b4e5c631f4d150d1.png",
+    "static/media/re-tcg.png": "/react-portfolio/static/media/re-tcg.b79e24091e3e7b4adbfb.png",
+    "static/media/media-phile.png": "/react-portfolio/static/media/media-phile.3a326ed92b4b9803aeb7.png",
     "static/media/avatar.png": "/react-portfolio/static/media/avatar.1dd0dfdc2cf7798834d8.png",
     "static/media/test-resume.pdf": "/react-portfolio/static/media/test-resume.29aa9a417e4e4a0bf51f.pdf",
-    "static/media/placeholder.jpg": "/react-portfolio/static/media/placeholder.8be22059a520dddbc6f7.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.f6f54892.css.map": "/react-portfolio/static/css/main.f6f54892.css.map",
-    "main.54809b1b.js.map": "/react-portfolio/static/js/main.54809b1b.js.map",
+    "main.ff40a26e.css.map": "/react-portfolio/static/css/main.ff40a26e.css.map",
+    "main.11fc64c1.js.map": "/react-portfolio/static/js/main.11fc64c1.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6f54892.css",
-    "static/js/main.54809b1b.js"
+    "static/css/main.ff40a26e.css",
+    "static/js/main.11fc64c1.js"
   ]
 }
