@@ -61,6 +61,10 @@ button {
   max-width: 250px;
 }
 
+.email, .email:hover {
+  color: var(--text);
+}
+
 .textLayer, .annotationLayer {
   display: none;
 }
