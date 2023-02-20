@@ -24,14 +24,14 @@ function Portfolio() {
                         <a href="https://mediaphile.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p>MediaPhile</p></a>
                         <a href="https://github.com/sammythyst/media-phile" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
                     </div>
-                    <img src={require('../images/media-phile.png')} alt="placeholder" style={img}/>
+                    <img src={require('../images/media-phile.png')} alt="media phile homepage with a couple posts from various users." style={img}/>
                 </div>
                 <div>
                     <div style={links}>
                         <a href="https://sammythyst.github.io/college-trip/" target="_blank" rel="noopener noreferrer"><p>College Trip Planner</p></a>
                         <a href="https://github.com/sammythyst/college-trip" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
                     </div>
-                    <img src={require('../images/college-trip.png')} alt="placeholder" style={img}/>
+                    <img src={require('../images/college-trip.png')} alt="webpage listing various colleges based on search term" style={img}/>
                 </div>
                 <div>
                     <div style={links}>
@@ -39,7 +39,7 @@ function Portfolio() {
                         {/* pre-bootcamp so no github, planning to rebuild using github soon */}
                         {/* <a href="" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a> */}
                     </div>
-                    <img src={require('../images/re-tcg.png')} alt="placeholder" style={img}/>
+                    <img src={require('../images/re-tcg.png')} alt="pokemon-like cards on a red and black starburst background" style={img}/>
                 </div>
                 
                 
