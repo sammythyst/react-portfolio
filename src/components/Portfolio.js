@@ -21,46 +21,27 @@ function Portfolio() {
             <section className='justify-content-center d-flex flex-wrap'>
                 <div>
                     <div style={links}>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><p>Project Name</p></a>
-                        <a href="https://github.com/sammythyst" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
+                        <a href="https://mediaphile.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p>MediaPhile</p></a>
+                        <a href="https://github.com/sammythyst/media-phile" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
                     </div>
-                    <img src={require('../images/placeholder.jpg')} alt="placeholder" style={img}/>
+                    <img src={require('../images/media-phile.png')} alt="placeholder" style={img}/>
                 </div>
                 <div>
                     <div style={links}>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><p>Project Name</p></a>
-                        <a href="https://github.com/sammythyst" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
+                        <a href="https://sammythyst.github.io/college-trip/" target="_blank" rel="noopener noreferrer"><p>College Trip Planner</p></a>
+                        <a href="https://github.com/sammythyst/college-trip" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
                     </div>
-                    <img src={require('../images/placeholder.jpg')} alt="placeholder" style={img}/>
+                    <img src={require('../images/college-trip.png')} alt="placeholder" style={img}/>
                 </div>
                 <div>
                     <div style={links}>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><p>Project Name</p></a>
-                        <a href="https://github.com/sammythyst" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
+                        <a href="https://re-tcg.com/home.html" target="_blank" rel="noopener noreferrer"><p>The Random Encounters Trading Card Game</p></a>
+                        {/* pre-bootcamp so no github, planning to rebuild using github soon */}
+                        {/* <a href="" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a> */}
                     </div>
-                    <img src={require('../images/placeholder.jpg')} alt="placeholder" style={img}/>
+                    <img src={require('../images/re-tcg.png')} alt="placeholder" style={img}/>
                 </div>
-                <div>
-                    <div style={links}>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><p>Project Name</p></a>
-                        <a href="https://github.com/sammythyst" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
-                    </div>
-                    <img src={require('../images/placeholder.jpg')} alt="placeholder" style={img}/>
-                </div>
-                <div>
-                    <div style={links}>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><p>Project Name</p></a>
-                        <a href="https://github.com/sammythyst" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
-                    </div>
-                    <img src={require('../images/placeholder.jpg')} alt="placeholder" style={img}/>
-                </div>
-                <div>
-                    <div style={links}>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><p>Project Name</p></a>
-                        <a href="https://github.com/sammythyst" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
-                    </div>
-                    <img src={require('../images/placeholder.jpg')} alt="placeholder" style={img}/>
-                </div>
+                
                 
             </section>
         </div>
